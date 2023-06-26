@@ -79,7 +79,6 @@ a {
 }
 
 p {
-    margin-top: -30px;
     font-family: 'Roboto';
     color: white;
     font-size: 24px;
@@ -102,7 +101,7 @@ button {
     justify-content: center;
     width: 150px;
     height: 40px;
-    background-color: blue;
+    background-color: #3882F6;
     border-radius: 12%;
     color: white;
     font-size: 24px;
@@ -115,7 +114,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 75px;
     background-color: #1F2937; 
     font-family: 'Roboto';
     font-size: 16px;
@@ -145,7 +144,7 @@ button {
 }
 
 .info-box {
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     border-radius: 15%;
     height: 100px;
     width: 100px;
@@ -175,7 +174,6 @@ button {
 }
 
 .quote-text {
-    border: 2px solid red;
     display: flex;
     width: 50%;
     justify-content: center;
@@ -185,7 +183,7 @@ button {
 }
 
 .quote-text-b {
-    border: 2px solid red;
+    border: 2px solid lightgrey;
     display: flex;
     width: 50%;
     justify-content: flex-end;
@@ -196,5 +194,36 @@ button {
 }
 
 .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.action-box {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 3%;
+    width: 60%;
+    height: 150px;
+    padding: 0;
+}
+
+.action-box-header {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.action-box-text {
+    font-family: 'Roboto';
+    font-size: 24px;
     display: flex;
 }
