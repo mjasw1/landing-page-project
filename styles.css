@@ -202,7 +202,6 @@ button {
 }
 
 .action-box {
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
