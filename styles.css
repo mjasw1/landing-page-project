@@ -91,6 +91,19 @@ p {
     font-family: 'Roboto';
 }
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 12%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
 
 /* 
 .info {
