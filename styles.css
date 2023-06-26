@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    /* border: 2px solid red;    for debugging */ 
+    display: flex;
+    background-color: #1F2937;
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    /* border: 2px solid red;    for debugging */ 
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto';
+}
+
+ul {
+    /* border: 2px solid red;    for debugging */ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+li {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-family: 'Roboto'; 
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+}
+
+/* 
+.info {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.action {
+    display: flex;
+}
+
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+} */
