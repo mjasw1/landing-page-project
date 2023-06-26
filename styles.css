@@ -122,22 +122,48 @@ button {
     color: white;
 }
 
-/* 
 .info {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
     justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 130px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    border: 2px solid blue;
+    border-radius: 15%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
 }
 
 .info-header {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto';
-    padding: 36px;
     font-size: 36px;
     font-weight: bolder;
 }
 
+
+/*
 .quote {
     display: flex;
 }
@@ -145,5 +171,4 @@ button {
 .action {
     display: flex;
 }
-
  */
